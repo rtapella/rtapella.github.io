@@ -13,6 +13,26 @@ body {
     background-color: #f5f5f5;
     line-height: 1.6;
     color: #333;
+    font-size: 16px; /* Base font size */
+}
+
+/* Responsive typography */
+@media (max-width: 767px) {
+    body {
+        font-size: 18px; /* Larger base font size for mobile */
+        line-height: 1.7; /* Slightly more line height for better readability */
+    }
+    
+    h1 { font-size: 2.2rem; }
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.5rem; }
+    p, li, a, span {
+        font-size: 1.05rem;
+    }
+    
+    .nav a {
+        font-size: 1.1rem; /* Slightly larger nav links */
+    }
 }
 
 /* Grid Layout */
@@ -266,6 +286,12 @@ body {
 @media (max-width: 767px) {
     .project-image {
         max-width: 100%;
+    }
+    
+    /* Ensure text containers don't get too wide on mobile */
+    .main-content, .left-sidebar, .right-sidebar {
+        max-width: 100%;
+        padding: 0 15px;
     }
     
     .header {
