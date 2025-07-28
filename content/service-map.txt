@@ -1,0 +1,55 @@
+TITLE: SERVICE JOURNEY MAP for LUXE VALET
+
+My activities:
+Project lead
+Ran journey map exercises with Luxe operations and product management team
+Interviewed Luxe customers
+Advised valet persona team
+
+Tools:
+Pen & paper
+Whiteboards
+Index cards
+Masking tape
+Google Slides
+
+
+Additional info:
+My team members on the project were Laci White and Kristen Sunde. 
+
+Kristen created an Illustrator version of the journey map, which the team had designed in whiteboard sketches.
+
+The findings of this project are under NDA.
+
+
+PROJECT DESCRIPTION
+
+Our three-person team created a service journey map for the Luxe Valet product—a now-defunct valet-parking on-demand app. We felt that Luxe would benefit from a comprehensive visualization of their service, which has a variety of actors such as the customer, valets, valet shift-captains, customer support, and back-end computer systems.
+
+Included in the journey map was a representation of the various people involved, plus the "triggers" such as phone apps and the car and keys. These became "swim-lanes" in the visualizations of the service journey. Additionally, we described the emotional journey for the customer and for the valet at moments of truth, and mapped pain points to the service map. The map covered the entire first-time user experience.
+
+Our team worked with various Luxe personnel to understand how the various participants in the service interact. We were then able to relate user research with the customers and valets to the journey map. The journey map is a great place for the in-house product team at Luxe to discuss service improvements, and to visually map out the impacts of changes.
+
+[image images/luxe-service-board.jpeg]
+image title: The analog version of the sticky-notes in swim-lanes for each actor.
+
+[image images/luxe-service-table.jpeg]
+image title: Rob and Laci recording steps in the journey.
+
+DELIVERABLES
+
+Included in the deliverables were three formats of journey map. The first is a stylized version in Illustrator, which provides an easy-to-read visual snapshot of the current state of the service.
+
+The second and third are digital and analog sticky-it notes. The digital version is in Google Slides with the steps for all actors, plus user stories for the customer and valet at each step. 
+
+A journey map is a great tool to help understand a service and to find pain points and opportunities for improvement, but in order for it to have maximum utility it must be in a format that is easy to update in a collaborative fashion. The analog version was provided for this purpose.
+
+USING THE JOURNEY MAP
+
+Now that Luxe has a baseline representation of the interactions within their service, they will be able to use it to consider the impact of future changes. For example, shortly after this project was delivered, Luxe introduced tipping for the valets. This will alter the dynamic at the payment step of the process, and may affect the end of the emotional journey for both the customer and the valet.  
+
+[image images/luxe-map-lowrez.png]
+image title: The Google Slides version of the journey map, zoomed out (and blurred).
+
+[image images/luxe-map-illustration.png]
+image title: A small snippet of the Illustrator version of the journey map.

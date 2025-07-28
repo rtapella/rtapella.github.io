@@ -1,0 +1,58 @@
+TITLE: RNA QUANTIFICATION REAGENT
+
+
+My activities:
+Product manager
+User research
+Survey development and analysis (Kano and RSOR)
+Requirements
+Test site management
+Pricing and positioning
+Sales training
+
+Tools:
+Spreadsheets for survey analysis
+Sticky notes and whiteboards for brainstorming
+DOORS for requirements management
+
+Additional info:
+Applied Biosystems is now a part of Thermo Fisher Scientific.
+
+The web page for the product described in this project is found here.
+
+As product manager, I was responsible for the product vision, business plan, and requirements, and for connecting with customer test sites. I also managed the pricing, discounting, positioning and product marketing and sales training
+
+
+PROJECT DESCRIPTION
+
+At Applied Biosystems, I managed a product line of real-time PCR reagents used to detect and quantify RNA. One major application of the technology is to quantify viral RNA for research.
+
+At the time, many customers were using products in the portfolio I managed for research on viruses, but we did not have a great understanding of the specific needs of this customer base, nor did we have a product that was designed to address challenges of these customers. Competitive pressures posed a concern, so a project was started to develop a reagent* product for this market segment.
+
+* A reagent is a mix of chemicals and enzymes that are designed to perform a specific reaction when used with a specific type of analytical instrumentation. In this case it finds a specific RNA sequence in a biological sample, converts it into DNA, and then replicates the DNA copy billions of times so that it can be detected with fluorescent dyes.
+
+IMPACT
+
+The TaqMan Fast Virus Master Mix was launched successfully and was designed to specifically address challenges that researchers face while studying RNA viruses—for example, samples with viruses are often harvested from environmental samples such as from plants, or from animal samples such as blood. These types of biological sample tend to have a variety of chemicals that negatively impact the performance of the technology used to detect the virus. 
+
+The product positioning [PDF brochure] and sales training focused on the benefit messages that were driven directly by the user research performed during the project.
+
+This product has a derivative—called TaqPath 1-Step Multiplex Master Mix—that is part of the SAR-CoV-2 (COVID) detection assay [PDF] created by the US CDC “gold standard” RT-qPCR test. Part of the initial product requirements included being sure that production of components could be scaled up quickly in manufacturing.
+
+[image images/tmfv-box-tx.png]
+image title: A photo of the product as it was released. Photo from the (PDF) product brochure.
+
+PROCESS AND ARTIFACTS
+
+User research interviews and observations were conducted with a variety of researchers studying viruses. The transcripts of the interviews were then analyzed for expressed and implicit needs, and a Kano survey was developed to evaluate how the user needs related to product performance. 
+
+The user research and survey analysis that we used was heavily influenced by Market-Driven Product Definition. It is very similar to a typical UX process, but it relies more on survey follow-up analysis rather than a qualitative prototype feedback-loop and usability testing. Of course all of the specific methods are compatible with—and can reinforce— each other.
+
+Based on the understanding of the user base, requirements for performance and usability were then created. Performance benchmarks against competing products were used to help set threshold values for quantitative requirements. An intensive process of product feature brainstorming was conducted in order to expand the team’s typical range of options for designing this type of product. This product incorporated several formulation and format innovations that were novel within our product line, as well as technology innovations in component chemistry and enzymes to meet the performance requirements.
+
+Product performance was tested repeatedly with beta-test sites to make sure that the reagent optimized in the lab would work in a “real” environment. 
+
+[image images/rmfv-Kano_model_showing_transition_over_time.png]
+image title: A visual description of the Kano-survey results. By Craigwbrown (Own work) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons.
+
+Actual results are proprietary, so I provided this image for illustrative purposes.

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methane Map Web Site - Rob Tapella</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Page-specific styles */
+        .hero {
+            background-color: #d0d0d0;
+            padding: 60px 40px;
+            text-align: left;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 400;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 1024px) {
+            .hero {
+                padding: 40px 20px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 30px 15px;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">ROB TAPELLA</div>
+        <nav class="nav">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn active">WORK</a>
+                <div class="dropdown-content">
+                    <a href="methane.html" class="active">Methane Map Web Site</a>
+                    <a href="data-dashboard.html">DNA Sequencing Data Dashboard</a>
+                    <a href="rna-quantification.html">RNA Quantification Reagent</a>
+                    <a href="service-map.html">Service Journey Map</a>
+                </div>
+            </div>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Image -->
+    <div class="hero-image-container">
+        <img src="images/methane-hero.jpg" alt="Methane Map Visualization" class="hero-image">
+        <div class="hero-overlay">
+            <h1>Methane Map Web Site</h1>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="grid-container">
+            <div class="left-sidebar">
+                <div class="content-section">
+                    <h2 class="section-title">MY ACTIVITIES:</h2>
+                    <div class="section-content">
+                        <ul>
+                            <li>Product manager and Design Lead</li>
+                            <li>User research and analysis</li>
+                            <li>Information architecture design</li>
+                            <li>Usability testing</li>
+                            <li>Requirements development</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h2 class="section-title">OTHER TEAM MEMBERS:</h2>
+                    <div class="section-content">
+                        <ul>
+                            <li>Aaron Plave (UI design and development)</li>
+                            <li>Josh Rodriguez (UI development)</li>
+                            <li>Kevin Gill (back-end development and research)</li>
+                            <li>Lauren Wong (early phase design and research)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="content-section">
+                    <h2 class="section-title">TOOLS:</h2>
+                    <div class="section-content">
+                        <ul>
+                            <li>Pen & paper</li>
+                            <li>Figma for UI designs</li>
+                            <li>OmniGraffle for task flows</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="content-section">
+                    <div class="section-content">
+                        <p>Methane Source Finder (MSF) is a map-based web application to connect point-sources of methane emissions with nearby infrastructure that may be related to the release of that greenhouse gas. It allows specific types of users to answer questions using searchable lists or a map-based data visualization, or to analyze patterns in the overall data set using an analytics view.</p>
+                        
+                        <p>The application serves two primary user groups: California methane emissions stakeholders. This includes facility operators who are interested in determining whether process improvements might help them reduce methane emissions and avoid product loss (e.g., leaky pipelines).</p>
+                        
+                        <p>The second group is regulatory agencies, and facility operators who want to connect observations of methane emissions to facilities on the ground.</p>
+                    </div>
+                </div>
+
+        <div class="content-section">
+            <h2 class="section-title">WHY METHANE?</h2>
+            <div class="section-content">
+                <p>Methane is a greenhouse gas that traps atmospheric radiation much more effectively than carbon dioxide (by equivalent volumes of gas). Methane is also related to some dangerous situations such as gas pipeline leaks that are difficult to detect when they occur in unpopulated locations—for example the infamous Aliso Canyon gas leak in 2015.</p>
+                <br>
+                <p>A very large portion of methane emissions is from so-called "fugitive emissions" from a relatively small number of facilities. This makes it easy to make a big impact by detecting and remediating accidental emissions at a few dozen facilities. Unfortunately, emissions in 2019 were self-reported and based on assumptions rather than actual measurements. A team at NASA-JPL has been conducting airborne observations of methane emissions for a few years using spectrometers on aircraft. This has led to a new collaboration, as well as a start-up focused on understanding natural emissions as compared to industrial emissions.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>CONCLUSION AND IMPACT</h2>
+            <div class="section-content">
+                <p>Several regulatory agencies in California are using MSF to help identify the largest observed emission sources of methane, and to understand its distribution across different industries. It also enhanced the analysis process for the team at NASA-JPL, and has been used by the California Air Resources Board since before the Aliso Canyon pipeline was developed.</p>
+            
+            <p>Additional collaborations with facility operators have also used the site to help navigate the various disparate data sets in a seamless way.</p>
+            
+            <p>When the site launch it had over 2000 users on the first day, which for the team was a surprisingly enthusiastic response for such a niche scientific resource.</p>
+            
+            <p>The MSF web site was developed along with new analysis methods based on convolutional neural-network (CNN) image analysis of infrared spectroscopy data gathered on an airborne platform—this analysis helps to identify individual methane plumes from a continuous raster data set, and to distinguish between natural and potential sources of methane plumes. The web site is designed to integrate these data sets together in a natural way.</p>
+            </div>
+        </div>
+
+        <div class="project-image-container">
+            <img src="images/MSF_Annotated.jpg" alt="Methane Source Finder web application interface showing a map with methane emission data points and various UI controls" class="project-image">
+            <p class="image-caption">Methane Source Finder annotated with some key design features.</p>
+        </div>
+
+        <div class="content-section">
+            <h2 class="section-title">WHY METHANE?</h2>
+            <div class="section-content">
+                <p>Methane is a greenhouse gas that traps atmospheric radiation much more effectively than carbon dioxide (by equivalent volumes of gas). Methane is also related to some dangerous situations such as gas pipeline leaks that are difficult to detect when they occur in unpopulated locations—for example the infamous Aliso Canyon gas leak in 2015.</p>
+                <br>
+                <p>A very large portion of methane emissions is from so-called "fugitive emissions" from a relatively small number of facilities. This makes it easy to make a big impact by detecting and remediating accidental emissions at a few dozen facilities. Unfortunately, emissions in 2019 were self-reported and based on assumptions rather than actual measurements. A team at NASA-JPL has been conducting airborne observations of methane emissions for a few years using spectrometers on aircraft. This has led to a new collaboration, as well as a start-up focused on understanding natural emissions as compared to industrial emissions.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>CONCLUSION AND IMPACT</h2>
+            <div class="section-content">
+                <p>Several regulatory agencies in California are using MSF to help identify the largest observed emission sources of methane, and to understand its distribution across different industries. It also enhanced the analysis process for the team at NASA-JPL, and has been used by the California Air Resources Board since before the Aliso Canyon pipeline was developed.</p>
+            
+            <p>Additional collaborations with facility operators have also used the site to help navigate the various disparate data sets in a seamless way.</p>
+            
+            <p>When the site launch it had over 2000 users on the first day, which for the team was a surprisingly enthusiastic response for such a niche scientific resource.</p>
+            
+            <p>The MSF web site was developed along with new analysis methods based on convolutional neural-network (CNN) image analysis of infrared spectroscopy data gathered on an airborne platform—this analysis helps to identify individual methane plumes from a continuous raster data set, and to distinguish between natural and potential sources of methane plumes. The web site is designed to integrate these data sets together in a natural way.</p>
+            </div>
+        </div>
+
+        <div class="project-image-container">
+            <img src="images/MSF_Annotated.jpg" alt="Methane Source Finder web application interface showing a map with methane emission data points and various UI controls" class="project-image">
+            <p class="image-caption">Methane Source Finder annotated with some key design features.</p>
+        </div>
+
+        <div class="content-section">
+            <h2 class="section-title">DESIGN HIGHLIGHTS</h2>
+            <div class="section-content">
+                <p>Some key decisions were made to separate the design of this GIS application from other similar apps developed by our team:</p>
+                <br>
+                <p>1. There are two tabbed list-views of items on the left: Methane Plumes and Infrastructure. These are the <strong>two main types of data that are important to regulators and facilities</strong>, and let them quickly answer questions like “what are the largest plumes that have been observed here?” or “what plumes have been observed over my landfill"?”.</p>
+                <br>
+                <p>2. Unlike most scientific applications that have a large number of layers with relatively obscure names, we have attempted to <strong>compress the layer management</strong> into a small number of top-level layers with flavors underneath. This is because the expectation is that you will not use this site to do comparisons of several gridded-data layers, but to compare wide-scale data to facilities and point-source emissions. <strong>Each layer is designed to answer a specific question</strong> that might come to mind when browsing the site.</p>
+                <br>
+                <p>3. Unlike satellite data, airborne data is very sporadic. We have developed a <strong>timeline view that reflects the sporadic nature of the data</strong> and which also triggers time-based searches when you click on it—rather than presenting a more complex time-search widget in the text-search area.</p>
+                <br>
+                <p>4. We also avoided having the user specify the geographic boundaries of queries by simply using the current view as the search area—more akin to Google Maps than to other big-data science applications that our team typically builds.
+            </div>
+        </div>
+    </div>
+    <div class="right-sidebar">
+        <div class="content-section">
+            <h2 class="section-title">Additional info:</h2>
+            <div class="section-content">
+                Images are from the JPL  Methane Source Finder web site; operational versions of the site have been <a href="https://msf.carb.arb.ca.gov">transferred to CARB</a> and to CarbonMapper. 
+                <br><br>
+                The site is built using the open-source Common Mapping Client by NASA-JPL along with other open-source middleware, and hosted on Amazon AWS.
+                <br><br>
+                There is an <a href="https://presentations.copernicus.org/EGU2020/EGU2020-9923_presentation.pdf">overview presentation from EGU 2020</a> [PDF]
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+    <script src="js/script.js"></script>
+    <script src="js/dropdown.js"></script>
+</body>
+</html>

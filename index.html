@@ -1,12 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Rob's Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rob Tapella - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<h1>Hello World</h1>
-	<div>Test of mobile commits.</div>
+    <header class="header">
+        <div class="logo">ROB TAPELLA</div>
+        <nav class="nav">
+            <a href="index.html" class="active">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">WORK</a>
+                <div class="dropdown-content">
+                    <a href="methane.html">Methane Map Web Site</a>
+                    <a href="data-dashboard.html">DNA Sequencing Data Dashboard</a>
+                    <a href="rna-quantification.html">RNA Quantification Reagent</a>
+                    <a href="service-map.html">Service Journey Map</a>
+                </div>
+            </div>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
 
+    <main class="main">
+        <h1 class="page-title">Work examples</h1>
+        
+        <div class="work-grid">
+            <a href="methane.html" class="work-card">
+                <div class="card-image" style="background-image: url('images/methane-hero.jpg'); background-size: cover; background-position: center;">
+                    <h2 class="card-title">Methane Map Web Site</h2>
+                </div>
+            </a>
+            <a href="data-dashboard.html" class="work-card">
+                <div class="card-image" style="background-image: url('images/rs-hero.png'); background-size: cover; background-position: center;">
+                    <h2 class="card-title">Data Dashboard for DNA Sequencer</h2>
+                </div>
+            </a>
+            <a href="rna-quantification.html" class="work-card">
+                <div class="card-image" style="background-image: url('images/tmfv-box-tx.png'); background-size: contain; background-position: center; background-repeat: no-repeat; background-color: #f5f5f5;">
+                    <h2 class="card-title">RNA Quantification Reagent</h2>
+                </div>
+            </a>
+            <a href="service-map.html" class="work-card">
+                <div class="card-image" style="background-image: url('images/luxe-map-lowrez.png'); background-size: cover; background-position: center;">
+                    <h2 class="card-title">Service Journey Map for Luxe Valet</h2>
+                </div>
+            </a>
 
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/dropdown.js"></script>
 </body>
 </html>
