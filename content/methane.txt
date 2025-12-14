@@ -1,0 +1,64 @@
+TITLE: METHANE SOURCE FINDER WEB SITE
+USER RESEARCH, PRODUCT MANAGEMENT AND UI DESIGN
+
+
+My activities:
+Product manager and Design Lead
+User research and analysis
+Interaction and User Interface design
+Usability testing
+Requirements development
+
+Other Team Members:
+Aaron Plave (http://aaronplave.com/) (UI design and development)
+Josh Rodriguez (UI development)
+Kevin Gill (https://www.flickr.com/photos/kevinmgill/) (back-end development)
+Lauren Wong (https://www.linkedin.com/in/laurenawong) (early-phase design and research)
+
+Tools:
+Pen & paper
+Figma for UI designs
+OmniGraffle for task flows
+Github and Zenhub for management
+MS Word, Excel
+
+Additional info:
+Images are from the JPL  Methane Source Finder web site; operational versions of the site have been transferred to CARB (https://msf.carb.arb.ca.gov/map) and to CarbonMapper (https://carbonmapperdata.org/).  
+
+The site is built using the open-source Common Mapping Client (https://github.com/nasa/common-mapping-client) by NASA-JPL along with other open-source middleware, and hosted on Amazon AWS.
+
+
+PROJECT DESCRIPTION
+Methane Source Finder (https://msf.carb.arb.ca.gov/map) (MSF) is a map-based web application to connect point-sources of methane emissions with nearby infrastructure that may be related to the release of that greenhouse gas. It allows specific types of users to answer questions using searchable lists or a map-based data visualization, or to analyze patterns in the overall data set using an analytics-view.
+
+The target users include engineers and regulators at California agencies that have started to monitor methane, as well as facility operators who are interested in determining whether process improvements might help them reduce methane emissions and avoid product loss (e.g., leaky pipes).
+
+The website was intentionally designed toward goals of regulators and facility operators who want to connect observations of methane emissions to facilities on the ground.
+
+WHY METHANE?
+
+Methane is a greenhouse gas that creates a warming effect that is far stronger than carbon dioxide for equivalent volumes of gas. Methane is also related to some dangerous situations such as gas pipeline leaks that are difficult to detect when they occur in unexpected locations—for example the infamous Aliso Canyon (https://en.wikipedia.org/wiki/Aliso_Canyon_gas_leak) gas leak in 2015.
+
+A very large portion of methane emissions is from so-called “fugitive emissions” from  a relatively small number of facilities. This makes it easy to make a big impact by detecting and remediating accidental emissions at a few dozen facilities. Unfortunately, emissions in 2018 were self-reported and based on assumptions rather than actual measurements. A team at NASA-JPL has been conducting airborne observations of methane emissions for a few years in order to help build some empirical evidence for emission-patterns and emission-distribution, as well as a start at understanding natural emissions as compared to industrial emissions.
+
+CONCLUSION AND IMPACT
+
+Several regulatory agencies in California are using MSF to help identify the largest observed emission sources of methane, and to understand its distribution across different industries. It also enhanced the research process for the team generating the data so that data curation and quality control could be done more easily as the data-processing pipeline was developed.
+
+Additional collaborations with facility operators have also used the site to help navigate the various disparate data sets in a seamless way.
+
+When the site launch it had over 2000 users on the first day, which for the team was a surprisingly enthusiastic response for such a niche scientific resource.
+
+The MSF web site was developed along with new analysis methods based on convolutional neural-network (CNN) image analysis of infrared spectroscopy data gathered on an airborne platform—this analysis helps to identify methane point-sources at scale. A team also developed a GIS database of facilities to better understand the potential sources of methane plumes. The web site is designed to integrate these data sets together in a natural way.
+
+DESIGN HIGHLIGHTS
+
+Some key decisions were made to separate the design of this GIS application from other (ostensibly) similar apps developed by our team.
+
+There are two tabbed list-views of items on the left: Methane Plumes and Infrastructure. These are the _two main types of data that are important to regulators and facilities_, and let them quickly answer questions like “what are the largest plumes that have been observed here?” or “what plumes have been observed over my landfill"?”.
+
+Unlike most scientific applications that have a large number of layers with relatively obscure names, we have attempted to _compress the layer management_ into a small number of top-level layers with flavors underneath. This is because the expectation is that you will not use this site to do comparisons of several gridded-data layers, but to compare wide-scale data to facilities and point-source emissions. _Each layer is designed to answer a specific question_ that might come to mind when browsing the site.
+
+Unlike satellite data, airborne data is very sporadic. We have _developed a timeline view that reflects the sporadic nature of the data_ and which also triggers time-based searches when you click on it—rather than presenting a more complex time-search widget in the text-search area.
+
+We also avoided having the user specify the geographic boundaries of queries by simply _using the current view as the search area_—more akin to Google Maps than to other big-data science applications that our team typically builds.
