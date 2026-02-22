@@ -147,7 +147,7 @@
                             locations—for example the infamous <a
                                 href="https://en.wikipedia.org/wiki/Aliso_Canyon_gas_leak">Aliso Canyon gas leak</a> in
                             2015.</p>
-                        <br>
+
                         <p>A very large portion of methane emissions is from so-called "fugitive emissions" from a
                             relatively small number of facilities. This makes it easy to make a big impact by detecting
                             and remediating accidental emissions at a few dozen facilities. Emissions in
@@ -159,12 +159,21 @@
                     </div>
                 </div>
 
+                <div class="project-image-container wide">
+                    <img src="images/MSF_Annotated.jpg"
+                        alt="Methane Source Finder web application interface showing a map with methane emission data points and various UI controls"
+                        class="project-image">
+                    <p class="image-caption">Methane Source Finder annotated with some key design features.</p>
+                </div>
+
                 <div class="content-section">
                     <h2>CONCLUSION AND IMPACT</h2>
                     <div class="section-content">
-                        <p>Several regulatory agencies in California are using MSF to help identify the largest observed
+                        <p>Several regulatory <strong>agencies</strong> in California <strong>are using MSF</strong> to
+                            help identify the largest observed
                             emission sources of methane, and to understand its distribution across different industries.
-                            It also enhanced the research process for the team generating the data so that data curation
+                            It also <strong>enhanced the research process</strong> for the team generating the data so
+                            that data curation
                             and quality control could be done more easily as the data-processing pipeline was developed.
                         </p>
 
@@ -182,12 +191,7 @@
                     </div>
                 </div>
 
-                <div class="project-image-container">
-                    <img src="images/MSF_Annotated.jpg"
-                        alt="Methane Source Finder web application interface showing a map with methane emission data points and various UI controls"
-                        class="project-image">
-                    <p class="image-caption">Methane Source Finder annotated with some key design features.</p>
-                </div>
+
 
 
 
@@ -196,13 +200,13 @@
                     <div class="section-content">
                         <p>Some key decisions were made to separate the design of this GIS application from other
                             (ostensibly) similar apps developed by our team.</p>
-                        <br>
+
                         <p>1. There are two tabbed list-views of items on the left: Methane Plumes and Infrastructure.
                             These are the <strong>two main types of data that are important to regulators and
                                 facilities</strong>, and let them quickly answer questions like “what are the largest
                             plumes
                             that have been observed here?” or “what plumes have been observed over my landfill"?”.</p>
-                        <br>
+
                         <p>2. Unlike most scientific applications that have a large number of layers with relatively
                             obscure names, we have attempted to <strong>compress the layer management</strong> into a
                             small
@@ -210,13 +214,13 @@
                             you will not use this site to do comparisons of several gridded-data layers, but to compare
                             wide-scale data to facilities and point-source emissions. <strong>Each layer is designed to
                                 answer a specific question</strong> that might come to mind when browsing the site.</p>
-                        <br>
+
                         <p>3. Unlike satellite data, airborne data is very sporadic. We have <strong>developed a
                                 timeline
                                 view that reflects the sporadic nature of the data</strong> and which also triggers
                             time-based searches when you click on it—rather than presenting a more complex time-search
                             widget in the text-search area.</p>
-                        <br>
+
                         <p>4. We also avoided having the user specify the geographic boundaries of queries by simply
                             <strong>using the current view as the search area</strong>—more akin to Google Maps than to
                             other

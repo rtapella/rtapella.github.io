@@ -13,25 +13,41 @@ body {
     background-color: #f5f5f5;
     line-height: 1.6;
     color: #333;
-    font-size: 16px; /* Base font size */
+    font-size: 16px;
+    /* Base font size */
 }
 
 /* Responsive typography */
 @media (max-width: 767px) {
     body {
-        font-size: 18px; /* Larger base font size for mobile */
-        line-height: 1.7; /* Slightly more line height for better readability */
+        font-size: 18px;
+        /* Larger base font size for mobile */
+        line-height: 1.7;
+        /* Slightly more line height for better readability */
     }
-    
-    h1 { font-size: 2.2rem; }
-    h2 { font-size: 1.8rem; }
-    h3 { font-size: 1.5rem; }
-    p, li, a, span {
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p,
+    li,
+    a,
+    span {
         font-size: 1.05rem;
     }
-    
+
     .nav a {
-        font-size: 1.1rem; /* Slightly larger nav links */
+        font-size: 1.1rem;
+        /* Slightly larger nav links */
     }
 }
 
@@ -131,7 +147,7 @@ body {
     position: absolute;
     background-color: #fff;
     min-width: 220px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     border-radius: 4px;
     overflow: hidden;
@@ -193,11 +209,11 @@ body {
         background-color: transparent;
         padding-left: 20px;
     }
-    
+
     .dropdown.active .dropdown-content {
         display: block;
     }
-    
+
     .dropdown-content a {
         color: white;
         padding: 8px 0;
@@ -271,13 +287,13 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-image:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .image-caption {
@@ -288,26 +304,42 @@ body {
     line-height: 1.5;
 }
 
+@media (min-width: 768px) {
+    .project-image-container.wide {
+        margin-left: -100px;
+        margin-right: -100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .project-image-container.wide {
+        margin-left: -220px;
+        margin-right: -220px;
+    }
+}
+
 /* Responsive Adjustments */
 @media (max-width: 767px) {
     .project-image {
         max-width: 100%;
     }
-    
+
     /* Ensure text containers don't get too wide on mobile */
-    .main-content, .left-sidebar, .right-sidebar {
+    .main-content,
+    .left-sidebar,
+    .right-sidebar {
         max-width: 100%;
         padding: 0 15px;
     }
-    
+
     .header {
         padding: 15px 20px;
     }
-    
+
     .nav {
         gap: 15px;
     }
-    
+
     .nav a {
         font-size: 16px;
     }
@@ -333,7 +365,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
     padding: 2rem;
     color: white;
 }
@@ -342,7 +374,7 @@ body {
     margin: 0;
     font-size: 2.5rem;
     font-weight: 600;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
@@ -382,7 +414,7 @@ body {
         flex-direction: row;
         align-items: flex-start;
     }
-    
+
     .about-image-container {
         flex: 0 0 300px;
         margin-right: 40px;
@@ -446,16 +478,16 @@ a:hover {
     .main {
         padding: 40px 20px;
     }
-    
+
     .page-title {
         font-size: 28px;
         margin-bottom: 40px;
     }
-    
+
     .hero h1 {
         font-size: 2rem;
     }
-    
+
     .hero p {
         font-size: 1rem;
     }
@@ -491,15 +523,20 @@ a:hover {
 
 .card-image {
     position: relative;
-    height: 250px; /* Fixed height for all cards */
+    height: 250px;
+    /* Fixed height for all cards */
     background-color: #f5f5f5;
     background-size: cover;
-    background-position: center top; /* Anchor image to top */ 
-   background-repeat: no-repeat;
+    background-position: center top;
+    /* Anchor image to top */
+    background-repeat: no-repeat;
     display: flex;
-    align-items: flex-start; /* Align content to top */
-    overflow: hidden; /* Ensure content doesn't overflow */
-    justify-content: center; /* Center content horizontally */
+    align-items: flex-start;
+    /* Align content to top */
+    overflow: hidden;
+    /* Ensure content doesn't overflow */
+    justify-content: center;
+    /* Center content horizontally */
 }
 
 .card-title {
@@ -515,7 +552,8 @@ a:hover {
     font-weight: 500;
     text-align: center;
     transition: background-color 0.3s ease;
-    z-index: 2; /* Ensure title is above the image */
+    z-index: 2;
+    /* Ensure title is above the image */
 }
 
 .work-card:hover .card-title {
@@ -526,7 +564,8 @@ a:hover {
 .work-card[href="rna-quantification.html"] .card-image {
     background-color: #f5f5f5;
     background-size: contain;
-    background-position: center top; /* Keep image anchored to top */
+    background-position: center top;
+    /* Keep image anchored to top */
     background-repeat: no-repeat;
 }
 
@@ -537,7 +576,7 @@ a:hover {
         max-width: 600px;
         padding: 0 15px;
     }
-    
+
     .card-title {
         padding: 12px 15px;
         font-size: 1rem;
